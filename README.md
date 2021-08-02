@@ -11,3 +11,4 @@ The purpose of the this project is to present step by step inner workings of mac
 - Machine Learning
     - Supervised Learning
         - K Nearest Neighbors
+        - WORK IN PROGRESS
