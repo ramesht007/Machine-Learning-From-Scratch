@@ -1,2 +1,13 @@
 # Machine-Learning-From-Scratch
-Basic Implementation of Machine learning models using Numpy .
+
+## About
+
+Bare bones implimentation of some famous machine learning models from scratch using Python.
+
+The purpose of the this project is to present step by step inner workings of machine learning models.
+
+## Implimentations
+
+- Machine Learning
+    - Supervised Learning
+        - K Nearest Neighbors
