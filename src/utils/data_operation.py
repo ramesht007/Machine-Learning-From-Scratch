@@ -12,8 +12,8 @@ def get_accuracy(predictions, y_test):
     acc = np.sum(predictions == y_test, axis=0) / len(y_test)
     return acc
 
-def mean_squared_error(predictions, y_test):
+def mean_squared_error(y_test, predictions):
     """Reutrn mean squared error for y_test, predictions"""
-    mse = np.mean((y_test, predictions)**2)
+    mse = np.mean(np.power(y_test - predictions, 2))
     return mse
 
