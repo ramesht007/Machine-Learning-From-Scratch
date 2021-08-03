@@ -43,6 +43,8 @@ class LinearRegression:
              dw = (1/n_samples) * np.dot(X.T, (y_predict - y))
              db = (1/n_samples) * np.sum(y_predict - y)
 
+            # update the weights and bias using the derivatives
+            # and learning rate  
              self.weights -= self.lr * dw
              self.bias -= self.lr * db 
 
