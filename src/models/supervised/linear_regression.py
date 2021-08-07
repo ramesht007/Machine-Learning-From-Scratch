@@ -17,7 +17,7 @@ class LinearRegression:
         self.lr = lr
         self.n_iters = n_iters
         # Intially weights and bias are not present. 
-        # Therefore, eights and bias are set to None. 
+        # Therefore, weights and bias are set to None. 
         self.weights = None 
         self.bias = None
 
